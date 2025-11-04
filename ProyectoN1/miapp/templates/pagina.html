@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{ titulo }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #006400;
+        }
+        p {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <h1>NOMBRE: LISSANDRO VALENTINO</h1>
-    <h2>EDAD: 22 AÑOS</h2>
-    <h3>FECHA DE NACIMIENTO: 14/03/2002
-    </h3>
-    <p>
-        Pasatiempos: JUGAR VIDEOJUEGOS, VER ANIME, PROGRAMAR EN PYTHON
-    </p>
+    <h1>{{ titulo }}</h1>
+    <p>{{ mensaje }}</p>
+    <p><strong>Autor:</strong> {{ autor }}</p>
 </body>
 </html>

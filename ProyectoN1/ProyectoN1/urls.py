@@ -4,6 +4,5 @@ from miapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.saludo),
-    path('info/', views.info),
+    path('', views.home)
 ]
